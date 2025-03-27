@@ -55,6 +55,7 @@ filtered_df = df[(df["Indicator"].isin(selected_indicators)) &
 fig = px.line(filtered_df, x="Year", y="Growth Rate", color="Indicator", markers=True,
               title=chart_title)
 fig.update_layout(legend_title_text='Indicator', height=600)
+fig.update_xaxes(dtick=1)
 
 st.plotly_chart(fig, use_container_width=True)
 
