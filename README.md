@@ -4,7 +4,7 @@ An interactive data dashboard that visualizes key macroeconomic indicators in Mo
 
 Built using **Python**, **pandas**, **Plotly**, and **Streamlit**.
 
-## 📊 Features
+##  Features
 
 - Interactive line charts for:
   - GDP growth (PIB en volume)
@@ -14,14 +14,14 @@ Built using **Python**, **pandas**, **Plotly**, and **Streamlit**.
 - Summary statistics (mean, max, min)
 - Clean and simple UI for quick insights
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python
 - pandas
 - Plotly
 - Streamlit
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 
@@ -62,7 +62,7 @@ The macroeconomic data is sourced from public Moroccan government statistics (HC
 
 ## ✨ Demo
 
-Coming soon on Streamlit Cloud!
+https://morocco-macro-tracker.streamlit.app/
 
 ## 👩‍💻 Author
 
