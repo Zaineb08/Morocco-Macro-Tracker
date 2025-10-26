@@ -4,6 +4,10 @@ An interactive data dashboard that visualizes key macroeconomic indicators in Mo
 
 Built using **Python**, **pandas**, **Plotly**, and **Streamlit**.
 
+## ✨ Demo
+
+https://morocco-macro-tracker.streamlit.app/
+
 ##  Features
 
 - Interactive line charts for:
@@ -60,9 +64,6 @@ The macroeconomic data is sourced from public Moroccan government statistics (HC
 
 [https://data.gov.ma/data/fr/dataset/26d56c9c-df51-472b-bf8d-c9a246f3d8ca/resource/5c22ab72-5622-4d04-8685-2e5169f2e6fe/download/statistiques-macroeconomiques-sectoriels-sociaux.xlsx](https://data.gov.ma/data/fr/dataset/26d56c9c-df51-472b-bf8d-c9a246f3d8ca/resource/5c22ab72-5622-4d04-8685-2e5169f2e6fe/download/statistiques-macroeconomiques-sectoriels-sociaux.xlsx)
 
-## ✨ Demo
-
-https://morocco-macro-tracker.streamlit.app/
 
 ## 👩‍💻 Author
 
