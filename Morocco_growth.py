@@ -50,11 +50,10 @@ else:
 
 # Sidebar filters
 indicators = df["Indicator"].unique()
-default_value = indicators[0] if len(indicators) > 0 else None
 selected_indicators = st.sidebar.multiselect(
     indicator_label,
     indicators,
-    default=[default_value] if default_value else []
+    default=[indicators[0]] if len(indicators) > 0 else []
 )
 
 years = sorted(df["Year"].unique())
@@ -72,9 +71,11 @@ if not selected_indicators:
     )
     st.stop()
 
-filtered_df = df[(df["Indicator"].isin(selected_indicators)) &
-                 (df["Year"] >= selected_years[0]) &
-                 (df["Year"] <= selected_years[1])]
+filtered_df = df[
+    (df["Indicator"].isin(selected_indicators)) &
+    (df["Year"] >= selected_years[0]) &
+    (df["Year"] <= selected_years[1])
+]
 
 # Plotting
 fig = px.line(filtered_df, x="Year", y="Growth Rate", color="Indicator", markers=True,
