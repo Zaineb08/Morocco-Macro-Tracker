@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ### 5. Run the Streamlit app
 
 ```bash
-streamlit run morocco_growth.py
+streamlit run Morocco_growth.py
 ```
 
 ## 📁 Data Source
